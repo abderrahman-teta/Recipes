@@ -1,0 +1,28 @@
+.add_recipe {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  margin-top: 2rem;
+  .controler {
+    label {
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    input[type="text"] {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+    textarea {
+      resize: vertical;
+      font-size: 1rem;
+    }
+    button {
+      width: 100%;
+    }
+  }
+}
